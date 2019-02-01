@@ -1,7 +1,7 @@
 # Site
 title:              Jakob Willisch
-bio:                'Jekyll version of the Massively theme by HTML5UP'
-description:        "Jekyll version of the Massively theme by HTML5UP"
+bio:                
+description:        "Jakob Willisch - Home Page"
 locale:             en_US
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
@@ -38,14 +38,14 @@ disqus_shortname:   default
 
 # Social
 analytics-id:       "default"
-twitter:            default
-facebook:           default
-instagram:          default
-github:             default
+twitter:            
+facebook:           
+instagram:          
+github:             https://github.com/jwillisch
 
 # personal
 location:           Berlin, Germany
-phone:              310-318-5555
+phone:              
 email:              jakob.willisch@googlemail.com
 
 # Gems
