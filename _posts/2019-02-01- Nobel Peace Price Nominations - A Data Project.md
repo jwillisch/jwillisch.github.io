@@ -12,57 +12,6 @@ sitemap:
 
 <body>
 
-<style type="text/css">
-.main-container {
-  max-width: 940px;
-  margin-left: auto;
-  margin-right: auto;
-}
-code {
-  color: inherit;
-  background-color: rgba(0, 0, 0, 0.04);
-}
-img {
-  max-width:100%;
-  height: auto;
-}
-.tabbed-pane {
-  padding-top: 12px;
-}
-button.code-folding-btn:focus {
-  outline: none;
-}
-</style>
-
-
-
-<div class="container-fluid main-container">
-
-<!-- tabsets -->
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-</script>
-
-<!-- code folding -->
-
-
-
-
-
-
-<div class="fluid-row" id="header">
-
-
-
-<h1 class="title toc-ignore">Code Sample</h1>
-<h4 class="author"><em>Jakob Willisch</em></h4>
-<h4 class="date"><em>August 14, 2017</em></h4>
-
-</div>
-
-
 <div id="nobel-prize-nomination-data" class="section level3">
 <p>The Nobel Prize Committee publishes information about its Laureates regularly and makes the information available through a public <a href="https://nobelprize.readme.io/v1.0">API</a>. Yet, according to the <a href="http://www.nobelprize.org/nobel_organizations/nobelfoundation/statutes.html#par7">Statutes of the Nobel Foundation</a>, information on who nominated whom and why is released only with a 50 year time-lag and not yet via a public API. The selection pool of elligible nominators is comparably small and potentially homogenous for most nobel prizes, but the <a href="https://www.nobelprize.org/nomination/peace/index.html">selection process of the Nobel Peace Prize</a> considers nominations from a considerably larger pool of nominators.</p>
 <p>The aim of this project is to scrape the <a href="https://www.nobelprize.org/nomination/archive/">Nobel Prize Nomination Database</a>, visualize some basic findings from the data and make the database available in a publically accessible format.</p>
