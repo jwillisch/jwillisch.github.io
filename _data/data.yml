@@ -1,0 +1,160 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Jakob Willisch
+    tagline: Full Stack Developer
+    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: jakob@googlemail.com
+    phone: 
+    website: jwillisch@github.io #do not add http://
+    linkedin: jakobwillisch
+    github: jwillisch
+    gitlab:
+    bitbucket:
+    twitter: ´
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+
+    languages:
+      - idiom: German
+        level: Native
+
+      - idiom: English
+        level: Professional
+
+    interests:
+      - item: Lacrosse
+        link:
+
+      - item: Cooking
+        link:
+
+      - item: Carpentry
+        link:
+
+career-profile:
+    title: Quantitative Social Science Researcher
+    summary: |
+      I am a researcher interested in data-driven answers and solution to societal, especially political problems. 
+      I hold a doctoral degree in Political Science in which I focused on the political economy of authoritarian politics. 
+      Also, I am interested in quantitative text analysis, quasi-experimental methods, measurement models and web-scraping.
+
+
+education:
+    - degree: Doctorate in Political Science
+      university: University of Mannheim
+      time: 2014 - 2018
+      details: |
+        In my dissertation, I used screening and bargaining models to explain how governments influence 
+        political competition in authoritarian and transitioning countries. I tested these explanations using quasi-experimental
+        correlational research designs using original data. Other research interests include:
+            
+           - the political economy of natural resources
+           - central banking
+           - quantitative text analysis and natural language processing
+          
+    - degree: MSc in Public Policy
+      university: University College London
+      time: 2013 - 2014
+      details: |
+        I studied how economic and political actors and institutions affect the policy-making process. My thesis analysed the
+        effects of state-owned investment funds on fiscal policy-making.
+
+experiences:
+    - role: Research Associate
+      time: 2015 - Present
+      company: University of Mannheim, Chair of Political Economy
+      details: |
+        My responsibilities included instructing students in comparative politics, game theory and mathematics.
+        I successfully conducted three research projects involving game-theoretic models, quasi-experimental methods, web-scraping and data-analysis in R and Python 
+
+
+    - role: Intern
+      time: Apr. 2013 - June 2013
+      company: Association of the German Chambers of Industry and Commerce, Berlin
+      details: |
+        I researched contemporary policy issues (corporate tax policy, minimum-wage, structural reforms in the EU, indicators of welfare) 
+        for publications including the “EU Reform Monitor” and “Evaluation of Party Programs for the 2013 Election.
+
+    - role: Assistant to CEO
+      time: Nov. 2011 - Feb. 2012
+      company: 4G Wines Ltd., Cape Town
+      details: |
+        I 
+
+projects:
+    title: Projects
+    intro: >
+
+    assignments:
+      - title: xmlAnnotate
+        link: "https://github.com/jwillisch/xmlAnnotate"
+        tagline: "A program that helps researchers transfer their human-labeled xml annotations into a file more conducive for machine learning and data analysis."
+
+      - title: Biographical Database of Post-Communist Political Leaders
+        link: "unpublished"
+        tagline: "Database that contains biographical information on political activity, educational background and professional experience of presidents, prime-ministers and central bankers from post-communist countries between 1991 - 2015."
+
+      - title: Database of Nobel Price Nominators
+        link: "https://github.com/jwillisch/np_nominators"
+        tagline: "A webscraper that and data-processing program that collects and maintains data on individuals that submit nominations for nobel prizes."
+
+publications:
+    title: Working Papers
+    intro: |
+
+    papers:
+      - title: Join the Club - Business Interests in Authoritarian Opposition Parties
+        authors: Jakob Willisch
+        conference: unpublished manuscript
+
+      - title: Opportunistic, not Optimal Delegation: The Political Origins of Central Bank Independence
+        authors: Baerg, N., Gray, J., Willisch, J.
+        conference: under review at the Journal of Politics
+
+      - title: The Perils of Pluralism in Non-Democracies
+        authors: Jakob Willisch
+        conference: unpublished manuscript
+
+skills:
+    title: Skills &amp; Proficiency
+
+    toolset:
+      - name: R
+        level: 98%
+
+      - name: Python
+        level: 50%
+
+      - name: Mathematica
+        level: 75%
+
+      - name: Java
+        level: 25%
+
+      - name: WinBUGS
+        level: 25%
+
+      - name: Julia
+        level: 10%
+        
+      - name: SQL
+        level: 25%
+              
+      - name: Neo4J
+        level: 25%
+      
+      - name: Git
+        level: 50%
+
+footer: >
+    <p>&copy; 2019 Jakob Willisch<p>

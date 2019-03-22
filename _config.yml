@@ -8,6 +8,8 @@ url: "" # the base hostname & protocol for your site
 background_image:   /images/bg.jpg
 # Tip: The color palette and other styles can be configured in /_sass/lib/_vars.scss
 formspree_thankyou_page: /thank-you
+theme_skin: ceramic # blue turquoise green berry orange ceramic
+chrome_mobile_color: #use hex colors (ex:#1976d2) or leave empty if you don't want a color for chrome mobile searchbar
 
 defaults:
 - scope:
@@ -35,6 +37,14 @@ sass:
 
 # Comments
 disqus_shortname:   default
+
+# Build Settings
+encoding: "utf-8"
+compress_html: # - http://jch.penibelst.de/
+  clippings: all
+  ignore:
+    envs: development
+
 
 # Social
 analytics-id:       "default"
