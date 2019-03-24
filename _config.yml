@@ -59,7 +59,7 @@ phone:
 email:              jakob.willisch@googlemail.com
 
 # Gems
-gems:
+plugins:
   - jekyll-mentions
   - jekyll-sitemap
   - jekyll-feed

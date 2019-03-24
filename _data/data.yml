@@ -8,7 +8,7 @@ sidebar:
 
     # Profile information
     name: Jakob Willisch
-    tagline: Full Stack Developer
+    tagline: Quantitative Social Science Researcher
     avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
@@ -117,7 +117,7 @@ publications:
         authors: Jakob Willisch
         conference: unpublished manuscript
 
-      - title: Opportunistic, not Optimal Delegation: The Political Origins of Central Bank Independence
+      - title: Opportunistic, not Optimal Delegation - The Political Origins of Central Bank Independence
         authors: Baerg, N., Gray, J., Willisch, J.
         conference: under review at the Journal of Politics
 
