@@ -178,9 +178,10 @@ p {
     .upper-row {
         position: relative;
         overflow: hidden;
-        margin-bottom: 2px;
+        margin: auto;
     }
     .job-title, .degree {
+		float: left;
         color: $text-color;
         font-size: 16px;
         margin-top: 0;
@@ -188,9 +189,10 @@ p {
         font-weight: 500;
     }
     .time {
-        position: absolute;
-        right: 0;
-        top: 0;
+		float: right;
+		margin-top: 0;
+        margin-bottom: 0;
+		font-size: 16px;
         color: $text-grey;
     }
     .company, .university {
